@@ -5,7 +5,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Initialize an Hugging Face embedding model
-model_name = "BAAI/bge-en-icl"
+model_name = "dunzhang/stella_en_1.5B_v5"
 hf = HuggingFaceEmbeddings(model_name=model_name)
 
 # establish a connection with the vector database
